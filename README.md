@@ -2,3 +2,4 @@
 - Saul Martinez 
 - Angello Salas
 - maicol simond
+- Wendy Carmona
