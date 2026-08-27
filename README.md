@@ -1,2 +1,4 @@
 # manual-git-02
-maicol simond
+- Saul Martinez 
+- Angello Salas
+- maicol simond
