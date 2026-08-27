@@ -51,4 +51,4 @@ Las ramas permiten desarrollar nuevas características o corregir errores de for
 * `git merge <nombre-de-rama>`: Fusiona los cambios de la rama especificada con la rama en la que te encuentras actualmente.
 
 ---
-> **Nota de buenas prácticas:**
+> **Nota de buenas prácticas:** Realiza commits frecuentes con mensajes claros y descriptivos, y recuerda hacer un `git pull` antes de hacer `git push` para evitar conflictos de versiones con tu equipo de trabajo.
