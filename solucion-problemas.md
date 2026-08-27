@@ -69,3 +69,26 @@ git add <archivo> (o git add . para incluir todo)
 ```
 git commit --amend --no-edit
 ```
+
+## 3. Resolver conflictos de fusión (Merge Conflicts)
+Normalmente un problema de fusión ocurre cuando dos ramas modifican las mismas líneas y Git no sabe cuál conservar.
+
+1. Ubicar archivos:
+Ejecuta git status para ver los archivos en conflicto.
+
+2. Resolver marcas en el código:
+Resolver marcas en el código, luego edita el archivo, deja solo el código correcto
+```
+<<<<<<< HEAD
+Tu código actual
+----
+Código de la otra rama
+>>>>>>> nombre-de-la-rama
+```
+3. Confirmar cambios:
+Guarda y ejecuta
+```
+git add .
+git commit -m "Resueltos conflictos de merge"
+```
+> Para cancelar todo usa git merge --abort para regresar al estado previo.
