@@ -92,3 +92,28 @@ git add .
 git commit -m "Resueltos conflictos de merge"
 ```
 > Para cancelar todo usa git merge --abort para regresar al estado previo.
+
+## 4. Manejo de ramas y pushes rechazados
+__1. Manejo de Ramas (Commands principales)__
+
+* Crear y cambiar de rama: `git checkout -b <nombre-rama> (o git switch -c <nombre-rama>)`
+
+* Cambiar entre ramas: `git checkout <nombre-rama>`
+
+* Listar ramas: `git branch (añade -a para ver remotas)`
+
+* Borrar una rama local: `git branch -d <nombre-rama>`
+
+2. __Pushes Rechazados (Non-fast-forward):__
+Un git push se rechaza cuando el repositorio remoto contiene commits nuevos que no tienes en tu máquina local.
+
+__Solución paso a paso__
+* Traer e intregar los cambios remotos:
+```
+git pull origin <nombre-rama>
+```
+* Reintentar el push:
+```
+git push origin <nombre-rama>
+```
+> Atención: Evita usar git push --force, ya que sobrescribe el historial remoto y puede borrar el trabajo de otros colaboradores.
