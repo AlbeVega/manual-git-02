@@ -19,18 +19,3 @@ En la tercera parte vamos a aprender las buenas practicas del (Git) que práctic
 
 Ya en lo últimos encontraremos los trabajos con ramas, prácticamente esto nos dice que cuanto trabajamos en un proyecto usando (Github) las ramas son unas herramientas de ayudas para los programadores ya que así cada quien trabaja por separado y no dañan el proyecto original, nos dice también que una rama se entiende que es una copia del proyecto original y con esta copia vamos a poder editar el proyecto original, veremos los flujos de trabajos que son:
 
-
-### Flujos de trabajo
-Veremos los flujos de trabajo que son:
-
-Crear una rama.
-Hacer cambios.
-Guardar los cambios mediante commits.
-Publicar la rama.
-Revisar los cambios.
-Corregir posibles errores.
-Integrar los cambios al proyecto principal.
-Actualizar la versión local del proyecto.
-Estos flujos de trabajo sirven para mantener una organización adecuada durante el desarrollo. Además, permiten que los cambios sean revisados por otros integrantes del equipo antes de llegar al proyecto principal.
-
-Finalmente, veremos que Git y GitHub son herramientas fundamentales en el desarrollo de software moderno. Su utilización permite mejorar la organización, facilitar el trabajo en equipo, controlar los cambios y reducir el riesgo de perder información o introducir errores importantes en un proyecto.
