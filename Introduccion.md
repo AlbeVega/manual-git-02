@@ -1,7 +1,7 @@
 ## En la primera parte 
 veremos el concepto de git, en esta parte veremos cuales son sus funciones, veremos que (Git) es un sistema de control de codigos y nos daremos de cuenta que mas que un sistema es una herramienta esencial para los desarroladores, otra de las cosas que vamos a podemos observar es lo fundamental que puede ser hoy en dia (Git) para los desarrolladores web para poder desarrollar una pagina web, una app u otras opciones del desarrollo ya que les permite a ellos crear repositorios, ramas y asi no cometen tantos errores en los codigos, ya que otros desarrolladores del mismo trabajo le pueden rechazar las lineas de codigos que hayan hechos y asi no dañar un proyecto grande de una empresa o propio.
 
-## en la segunda parte
+## En la segunda parte
 En esta segunda parte vamos a poder conocer mas de los comandos básicos del (Git) que son: crear repositorios, copiar uno existente , editar líneas de códigos de uno existente que tengan errores, bugs u otra anomalía y volver a subirlo, vamos a poder entender que hay miles de comandos existentes pero aun así los antes mencionados son los mas básicos y mas usados, vamos a poder conocer algunos de ellos como (Git init) y conoceremos para que es usado también conoceremos el comando (Git clone) y su uso que prácticamente es clonar como su nombre lo dice, otro código que conoceremos es el (Git config) y su uso y así como esos códigos veremos muchos mas códigos de (Git).
 
 ## En la tercera parte 
@@ -20,3 +20,4 @@ En la tercera parte vamos a aprender las buenas practicas del (Git) que práctic
 Ya en lo últimos encontraremos los trabajos con ramas, prácticamente esto nos dice que cuanto trabajamos en un proyecto usando (Github) las ramas son unas herramientas de ayudas para los programadores ya que así cada quien trabaja por separado y no dañan el proyecto original, nos dice también que una rama se entiende que es una copia del proyecto original y con esta copia vamos a poder editar el proyecto original, veremos los flujos de trabajos que son:
 
 - Crear una rama - hacer cambios - publicar rama y etc. y veremos para que sirven estos flujos de trabajos.
+
