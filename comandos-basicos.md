@@ -52,3 +52,4 @@ Las ramas permiten desarrollar nuevas características o corregir errores de for
 
 ---
 > **Nota de buenas prácticas:** Realiza commits frecuentes con mensajes claros y descriptivos, y recuerda hacer un `git pull` antes de hacer `git push` para evitar conflictos de versiones con tu equipo de trabajo.
+> wnwbowhovpfjvbeiwukfhvñwhwkjweio1wk1wfhqwh1whvwbl13bbbqwvb1wvjvkvbqvñlbqwlnqwñlnqwñklvilvnwl
