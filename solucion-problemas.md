@@ -117,3 +117,50 @@ git pull origin <nombre-rama>
 git push origin <nombre-rama>
 ```
 > Atención: Evita usar git push --force, ya que sobrescribe el historial remoto y puede borrar el trabajo de otros colaboradores.
+
+## 5. Errores de credenciales y autenticación
+Estos ocurren cuando Git no tiene acceso válido al repositorio remoto o cuando tus credenciales locales expiraron.
+
+1. __Actualizar credenciales en HTTPS__
+Si usas HTTPS y cambió tu contraseña o tu Token de Acceso Personal (PAT):
+### En Windows (Administrador de credenciales):
+
+* Abre el menú Inicio y busca Administrador de credenciales.
+* Ve a Credenciales de Windows.
+* Busca las entradas asociadas a `git:[https://github.com](https://github.com)` (o Bitbucket/GitLab).
+* Selecciónala y elige Editar o Eliminar.
+* Al hacer `git push` o `git pull` nuevamente, Git te pedirá las nuevas credenciales.
+
+### Usar Personal Access Tokens (PAT):
+GitHub y GitLab ya no aceptan la contraseña de la cuenta para autenticar operaciones de Git por HTTPS. Debes generar un Token en la configuración de la plataforma (Developer Settings > Personal Access Tokens) y pegar ese token en lugar de tu contraseña habitual.
+
+2. __Limpiar la memoria caché de credenciales de Git__
+Para obligar a gir a olvidar credenciales guardadas:
+```
+git credential-approve erase
+# O desvincular el guardado automático en el sistema:
+git config --global --unset credential.helper
+```
+3. __Verificar la URL del repositorio remoto__
+Si intentas subir a un repositorio al que no tienes permiso o la URL es incorrecta:
+
+* Ver remoto actual: git remote -v
+* Cambiar de HTTPS a SSH (o viceversa):
+```
+git remote set-url origin git@github.com:usuario/repositorio.git
+```
+## 6. Recuperar commits o ramas eliminadas
+jdvnejjjjjjjjjjjjjjjjjjjc
+cdevvvvvvvvvvvvvvvvvvvvd
+
+vdvdvdvsdvvvvvfvkjscduiwsnvjkbshcbisjdncsbvhejs nvjk
+sjhdbcuhsjdbvjsdbvjsdfb vjhdbfvjbdfjbvdfjbvdf
+
+dvjdbvjkdb vjksdjvbsjkdbsjkcbjkds
+
+
+sdvcdvdcdddddddddddddd
+vvvvvvvvvvvvv
+
+d
+vdvdvdvdvdvvvdv
