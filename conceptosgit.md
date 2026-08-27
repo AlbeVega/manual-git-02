@@ -27,7 +27,7 @@ Las Tres Áreas de Trabajo
 
 - Pull: Descarga y fusiona inmediatamente los cambios del servidor remoto en tu rama local activa (equivale a ejecutar fetch seguido de merge).
 
-- Push: Sube tus commits locales confirmados al servidor remoto para compartirlos con el resto del equipo.
+- Push: Sube tus commits locales confirmados al servidor remoto para compartir con el resto del equipo.
 
 ## En Resumen ##
 Git es un sistema de control de versiones distribuido que rastrea el historial del código mediante cuatro pilares fundamentales:
