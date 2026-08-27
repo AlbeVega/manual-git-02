@@ -3,3 +3,7 @@
 - Angello Salas
 - maicol simond
 - Wendy Carmona
+
+
+
+Samuel Sequeda
