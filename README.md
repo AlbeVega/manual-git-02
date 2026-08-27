@@ -4,13 +4,7 @@
 - Angello Salas
 - maicol simond
 - Wendy Carmona
-<<<<<<< HEAD
-
-
-
-+
-=======
 - Alberto Vega
 - Danitzha Payares
+- Samuel Sequeda
 
->>>>>>> main
