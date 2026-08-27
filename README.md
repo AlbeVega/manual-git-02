@@ -6,4 +6,5 @@
 - Wendy Carmona
 - Alberto Vega
 - Danitzha Payares
+- Samuel Sequeda
 
