@@ -46,3 +46,26 @@ Si quieres volver al estado exacto del último commit y borrar todas las modific
 git reset --hard HEAD
 ```
 >Atención: Este comando destruye los cambios locales sin posibilidad de recuperación.
+
+## 2. Modificar el último commit
+Dependiendo del cambio a realizar, existen 2 formas principales para hacerlo:
+* Cambiar solo el mensaje del último commit
+_Si no necesitas editar ningun archivo y solo quieres corregir el texto o un error ortografico, utiliza:_
+```
+git commit --amend -m "Nuevo mensaje corregido"
+```
+Si prefieres abrir tu editor de texto predeterminado para escribir un mensaje más extenso:
+```
+git commit --amend
+```
+* Añadir u olvidar cambios en el último commit
+Si deseas modificar un archivo o quieres eliminar algo del commit:
+1. Haz las modificaciones necesarias en tu código.
+2. Agrega los archivos al área de preparación (staging):
+```
+git add <archivo> (o git add . para incluir todo)
+```
+3. Sobrescribe el último commit reutilizando el mensaje anterior (o cambia el mensaje omitiendo `--no-edit`):
+```
+git commit --amend --no-edit
+```
