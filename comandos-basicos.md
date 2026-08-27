@@ -40,3 +40,15 @@ Una vez que tu código está listo localmente, puedes subirlo o sincronizarlo co
 * `git clone <URL-del-repositorio>`: Clona (descarga) un repositorio existente desde GitHub a tu ordenador.
 
 ---
+
+## 5. Gestión de Ramas (Branching)
+Las ramas permiten desarrollar nuevas características o corregir errores de forma aislada sin afectar la versión principal del código.
+
+* `git branch`: Lista todas las ramas locales del repositorio.
+* `git branch <nombre-de-rama>`: Crea una nueva rama.
+* `git checkout <nombre-de-rama>` o `git switch <nombre-de-rama>`: Cambia de la rama actual a la especificada.
+* `git checkout -b <nombre-de-rama>`: Crea una nueva rama y cambia a ella de manera simultánea.
+* `git merge <nombre-de-rama>`: Fusiona los cambios de la rama especificada con la rama en la que te encuentras actualmente.
+
+---
+
