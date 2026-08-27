@@ -1,4 +1,6 @@
 # manual-git-02
-Saul Martinez 
-Angello Salas
-Danitzha Payares
+- Saul Martinez 
+- Angello Salas
+- maicol simond
+- Wendy Carmona
+- Danitzha Payares
