@@ -5,4 +5,5 @@
 - maicol simond
 - Wendy Carmona
 - Alberto Vega
+- Danitzha Payares
 
