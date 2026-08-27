@@ -19,3 +19,11 @@ Los Pull Requests permiten que otros integrantes revisen el código antes de inc
 # 5. Proteger información privada
 
 Nunca se deben subir contraseñas, claves API o información sensible a GitHub. Es recomendable utilizar variables de entorno y archivos. **gitignore** para evitar publicar información privada.
+
+# 6. Mantener el proyecto actualizado
+
+Es importante actualizar las dependencias y corregir vulnerabilidades. También se pueden utilizar herramientas como GitHub Actions para ejecutar pruebas automáticamente y detectar errores.
+
+# Conclusión
+
+Seguir buenas prácticas en GitHub permite tener proyectos más organizados, seguros y fáciles de mantener. Las más importantes son organizar el repositorio, utilizar commits y ramas correctamente, revisar los cambios y proteger la información privada.
