@@ -27,3 +27,5 @@ Es importante actualizar las dependencias y corregir vulnerabilidades. También 
 # Conclusión
 
 Seguir buenas prácticas en GitHub permite tener proyectos más organizados, seguros y fáciles de mantener. Las más importantes son organizar el repositorio, utilizar commits y ramas correctamente, revisar los cambios y proteger la información privada.
+
+Tambien las buenas prácticas de Git sirven para mantener el código organizado, facilitar el trabajo en equipo y evitar la pérdida de información o errores graves en el software. 
