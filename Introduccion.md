@@ -19,3 +19,12 @@ En la tercera parte vamos a aprender las buenas practicas del (Git) que práctic
 
 Ya en lo últimos encontraremos los trabajos con ramas, prácticamente esto nos dice que cuanto trabajamos en un proyecto usando (Github) las ramas son unas herramientas de ayudas para los programadores ya que así cada quien trabaja por separado y no dañan el proyecto original, nos dice también que una rama se entiende que es una copia del proyecto original y con esta copia vamos a poder editar el proyecto original, veremos los flujos de trabajos que son:
 
+<<<<<<< HEAD
+=======
+- Crear una rama - hacer cambios - publicar rama y etc. y veremos para que sirven estos flujos de trabajos.
+
+# Conclusión
+
+En conclusión, Git y GitHub son herramientas muy importantes para el desarrollo de proyectos, ya que permiten organizar, guardar y controlar los cambios realizados en el código. A través de sus comandos, repositorios y ramas, los desarrolladores pueden trabajar de manera más ordenada y segura, evitando afectar el proyecto principal. Además, las buenas prácticas y el trabajo con ramas facilitan la colaboración entre varias personas, permiten revisar los cambios y ayudan a reducir los errores. Por todo esto, aprender a utilizar Git y GitHub correctamente es fundamental para cualquier persona que quiera desarrollarse en el área de programación.
+
+>>>>>>> main
