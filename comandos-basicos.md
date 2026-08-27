@@ -52,3 +52,30 @@ Las ramas permiten desarrollar nuevas características o corregir errores de for
 
 ---
 > **Nota de buenas prácticas:** Realiza commits frecuentes con mensajes claros y descriptivos, y recuerda hacer un `git pull` antes de hacer `git push` para evitar conflictos de versiones con tu equipo de trabajo.
+
+# Comandos Avanzados de Git
+
+## 1. Deshacer y Limpiar Cambios
+* `git restore <archivo>`: Descarta los cambios locales no guardados en un archivo, devolviéndolo a su último estado confirmado.
+* `git restore --staged <archivo>`: Saca un archivo del *staging area* sin borrar los cambios que hiciste en él.
+* `git commit --amend -m "Nuevo mensaje"`: Modifica el mensaje del último *commit* realizado o le agrega cambios que olvidaste incluir.
+* `git clean -fd`: Elimina permanentemente todos los archivos y carpetas que no estén rastreados (*untracked*).
+
+## 2. Guardado Temporal (Stash)
+* `git stash`: Guarda temporalmente tus cambios en progreso sin hacer un *commit* para dejar el directorio de trabajo limpio.
+* `git stash pop`: Recupera y aplica los últimos cambios guardados en el *stash*.
+* `git stash list`: Muestra una lista de todas las capturas temporales que tienes almacenadas.
+
+## 3. Historial Avanzado e Inspección
+* `git log --oneline --graph --all`: Muestra un historial comprimido en una sola línea por *commit*, dibujando un esquema gráfico de las ramas.
+* `git show <hash-de-commit>`: Muestra el detalle exacto y las líneas modificadas en un *commit* específico.
+* `git blame <archivo>`: Muestra quién modificó cada línea de un archivo y en qué *commit* lo hizo.
+
+## 4. Trabajo Avanzado con Ramas y Servidores
+* `git fetch`: Descarga la información del repositorio remoto (nuevas ramas y *commits*) sin alterar tu código local.
+* `git branch -d <nombre-de-rama>`: Elimina una rama local que ya fue fusionada.
+* `git push origin --delete <nombre-de-rama>`: Elimina una rama directamente en el repositorio remoto de GitHub.
+* `git cherry-pick <hash-de-commit>`: Aplica un *commit* específico de otra rama a la rama en la que estás actualmente.
+
+## 5. Diagnóstico de Errores
+* `git bisect start`: Inicia un proceso de búsqueda binaria en el historial para encontrar exactamente qué *commit* introdujo un error en el código.
