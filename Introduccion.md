@@ -4,3 +4,19 @@ veremos el concepto de git, en esta parte veremos cuales son sus funciones, vere
 ## en la segunda parte
 En esta segunda parte vamos a poder conocer mas de los comandos básicos del (Git) que son: crear repositorios, copiar uno existente , editar líneas de códigos de uno existente que tengan errores, bugs u otra anomalía y volver a subirlo, vamos a poder entender que hay miles de comandos existentes pero aun así los antes mencionados son los mas básicos y mas usados, vamos a poder conocer algunos de ellos como (Git init) y conoceremos para que es usado también conoceremos el comando (Git clone) y su uso que prácticamente es clonar como su nombre lo dice, otro código que conoceremos es el (Git config) y su uso y así como esos códigos veremos muchos mas códigos de (Git).
 
+## En la tercera parte 
+En la tercera parte vamos a aprender las buenas practicas del (Git) que prácticamente nos dice que (Git) no debe entenderse como un sitio de almacenamiento de códigos si no un control de versiones de códigos y revisión automática. Veremos que si aplicamos bien el (Git) prácticamente mejoraremos en los proyectos y cometeremos menos errores ya que:
+
+- Es mas seguro mas los nuevos desarrolladores
+
+- Mas seguro para los proyectos
+
+- Mas sencillo de revisar
+
+- Veremos que es menos propenso a cometer errores. Algunas estructuras habituales son:
+
+- Mi_proyecto -src/ -tests/ -docs/ y por ultimo uno de los amas usados que es (Github)
+
+Ya en lo últimos encontraremos los trabajos con ramas, prácticamente esto nos dice que cuanto trabajamos en un proyecto usando (Github) las ramas son unas herramientas de ayudas para los programadores ya que así cada quien trabaja por separado y no dañan el proyecto original, nos dice también que una rama se entiende que es una copia del proyecto original y con esta copia vamos a poder editar el proyecto original, veremos los flujos de trabajos que son:
+
+- Crear una rama - hacer cambios - publicar rama y etc. y veremos para que sirven estos flujos de trabajos.
